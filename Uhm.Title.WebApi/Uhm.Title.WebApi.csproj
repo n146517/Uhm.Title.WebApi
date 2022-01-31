@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uhm.Title.Database\Uhm.Title.Database.sqlproj" />
+    <ProjectReference Include="..\Uhm.Title.Data\Uhm.Title.Data.csproj" />
+    <ProjectReference Include="..\Uhm.Title.Dto\Uhm.Title.Dto.csproj" />
+    <ProjectReference Include="..\Uhm.Title.Helper\Uhm.Title.Helper.csproj" />
+    <ProjectReference Include="..\Uhm.Title.Repository\Uhm.Title.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uhm.Title.Data\Uhm.Title.Data.csproj" />
+    <ProjectReference Include="..\Uhm.Title.Dto\Uhm.Title.Dto.csproj" />
+    <ProjectReference Include="..\Uhm.Title.WebApi\Uhm.Title.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>
